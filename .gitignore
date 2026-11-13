@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables (secrets)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Build outputs
+frontend/dist/
+backend/dist/
+
+# Database files (contains user data)
+backend/data/careerpath.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.tmp.*
+.cache/
+
+# Antigravity / AI tool files
+.gemini/
